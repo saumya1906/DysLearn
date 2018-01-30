@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: c600c46b1d34f764eb3323b56571fa5e
+timeCreated: 1511625872
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Tower1_Tower
+    100004: Tower1_Tower_Fence_posts_Tube
+    100006: Tower1_Tower_Fence_posts_Tube_1
+    100008: Tower1_Tower_Fence_posts_Tube_2
+    100010: Tower1_Tower_Fence_posts_Tube_3
+    100012: Tower1_Tower_Fence_posts_Tube_4
+    100014: Tower1_Tower_Fence_posts_Tube_5
+    100016: Tower1_Tower_Fence_posts_Tube_6
+    100018: Tower1_Tower_Fence_posts_Tube_7
+    100020: Tower1_window
+    400000: //RootNode
+    400002: Tower1_Tower
+    400004: Tower1_Tower_Fence_posts_Tube
+    400006: Tower1_Tower_Fence_posts_Tube_1
+    400008: Tower1_Tower_Fence_posts_Tube_2
+    400010: Tower1_Tower_Fence_posts_Tube_3
+    400012: Tower1_Tower_Fence_posts_Tube_4
+    400014: Tower1_Tower_Fence_posts_Tube_5
+    400016: Tower1_Tower_Fence_posts_Tube_6
+    400018: Tower1_Tower_Fence_posts_Tube_7
+    400020: Tower1_window
+    2300000: Tower1_Tower
+    2300002: Tower1_Tower_Fence_posts_Tube
+    2300004: Tower1_Tower_Fence_posts_Tube_1
+    2300006: Tower1_Tower_Fence_posts_Tube_2
+    2300008: Tower1_Tower_Fence_posts_Tube_3
+    2300010: Tower1_Tower_Fence_posts_Tube_4
+    2300012: Tower1_Tower_Fence_posts_Tube_5
+    2300014: Tower1_Tower_Fence_posts_Tube_6
+    2300016: Tower1_Tower_Fence_posts_Tube_7
+    2300018: Tower1_window
+    3300000: Tower1_Tower
+    3300002: Tower1_Tower_Fence_posts_Tube
+    3300004: Tower1_Tower_Fence_posts_Tube_1
+    3300006: Tower1_Tower_Fence_posts_Tube_2
+    3300008: Tower1_Tower_Fence_posts_Tube_3
+    3300010: Tower1_Tower_Fence_posts_Tube_4
+    3300012: Tower1_Tower_Fence_posts_Tube_5
+    3300014: Tower1_Tower_Fence_posts_Tube_6
+    3300016: Tower1_Tower_Fence_posts_Tube_7
+    3300018: Tower1_window
+    4300000: Tower1_Tower
+    4300002: Tower1_Tower_Fence_posts_Tube
+    4300004: Tower1_Tower_Fence_posts_Tube_1
+    4300006: Tower1_Tower_Fence_posts_Tube_2
+    4300008: Tower1_Tower_Fence_posts_Tube_3
+    4300010: Tower1_Tower_Fence_posts_Tube_4
+    4300012: Tower1_Tower_Fence_posts_Tube_5
+    4300014: Tower1_Tower_Fence_posts_Tube_6
+    4300016: Tower1_Tower_Fence_posts_Tube_7
+    4300018: Tower1_window
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tower1_TowerMat
+    second: {fileID: 2100000, guid: c6a5268ce82a19a4a87a50ef67ff0c60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tower1_Tower_Fence_posts_TubeMat
+    second: {fileID: 2100000, guid: 527c2348228821f428702b73bbdfcdc5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tower1_Tower_Fence_posts_Tube_1Mat
+    second: {fileID: 2100000, guid: 1c5d8aaf80b75534ba1efd6c20f59bb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tower1_Tower_Fence_posts_Tube_2Mat
+    second: {fileID: 2100000, guid: 04b97b8c7e1e4a440b89609816e3d6bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tower1_Tower_Fence_posts_Tube_3Mat
+    second: {fileID: 2100000, guid: ff4d26c5ae5d11447993ee221c4e4542, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tower1_Tower_Fence_posts_Tube_4Mat
+    second: {fileID: 2100000, guid: 2dffe279edcfb60439ebc3ea0703bd8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tower1_Tower_Fence_posts_Tube_5Mat
+    second: {fileID: 2100000, guid: 33ddbd4691d90204e99ea7c3d9d34d42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tower1_Tower_Fence_posts_Tube_6Mat
+    second: {fileID: 2100000, guid: cc8445c394b3da64e9379c034b17314d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tower1_Tower_Fence_posts_Tube_7Mat
+    second: {fileID: 2100000, guid: 880cb0ce972e2fb40ad572fc764bb72d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tower1_windowMat
+    second: {fileID: 2100000, guid: 1b84a8521c426eb4b9dd5007f891bddc, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
