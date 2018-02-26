@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/question2.unity
+- path: Assets/AR9.unity
   isLoaded: 1
   isActive: 1
