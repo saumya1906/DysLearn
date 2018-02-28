@@ -7,15 +7,15 @@ using Vuforia;
 [RequireComponent(typeof(AudioSource))]
 public class word_fit : MonoBehaviour
 {
-	public AudioClip aud_c1fl;
-	public AudioClip aud_c2fl;
-	public AudioClip aud_c1fr;
+	public AudioClip aud_c1fl;//change letter
+	//public AudioClip aud_c2fl;
+	//public AudioClip aud_c1fr;
 
-	public AudioClip aud_r1fl;
-	public AudioClip aud_r2fl;
-	public AudioClip aud_r1fr;
+	public AudioClip aud_r1fl;//rotate letter
+//	public AudioClip aud_r2fl;
+//	public AudioClip aud_r1fr;
 
-	public AudioClip reorder;
+	//public AudioClip reorder;
 
 	public AudioClip congo;
 
@@ -42,54 +42,58 @@ public class word_fit : MonoBehaviour
 			if (y % 250 == 0) {
 				//          VARIABLES NEED TO BE CHANGED 
 				float x_of_f = script_f.x;
-				float x_of_i = script_i.x;
-				float x_of_t = script_t.x;
+				//float x_of_i = script_i.x;
+				//float x_of_t = script_t.x;
 
-				Debug.Log ("I GET " + x_of_f + ", " + x_of_i + ", " + x_of_t);
+			//	Debug.Log ("I GET " + x_of_f + ", " + x_of_i + ", " + x_of_t);
 
 				bool flip_f = script_f.flip;
-				bool flip_i = script_i.flip;
-				bool flip_t = script_t.flip;
+				//bool flip_i = script_i.flip;
+			//	bool flip_t = script_t.flip;
 
-				if (x_of_f == 0 && x_of_i == 0 && x_of_t == 0) {
+				if (x_of_f == 0 ) {
 					obj.SetActive (false);
 					return;
 				}
 
-				if (x_of_f == 0 || x_of_i == 0 || x_of_t == 0) {
+				if (x_of_f == 0) {
 					obj.SetActive (false);
 					if (x_of_f == 0) {	
-						Debug.Log ("R is not there on the screen");
-						AudioSource.PlayClipAtPoint (aud_c1fl, transform.position, 1.0f);
-					} else if (x_of_i == 0) {	
-						Debug.Log ("A is not there on the screen");
-						AudioSource.PlayClipAtPoint (aud_c2fl, transform.position, 1.0f);
-					} else if (x_of_t == 0) {	
-						Debug.Log ("T is not there on the screen");
-						AudioSource.PlayClipAtPoint (aud_c1fr, transform.position, 1.0f);
+						Debug.Log ("F is not there on the screen");
+						AudioSource.PlayClipAtPoint (aud_c1fl, transform.position, 1.0f);//change this
 					}
+					//else if (x_of_i == 0) {	
+					//	Debug.Log ("A is not there on the screen");
+					//	AudioSource.PlayClipAtPoint (aud_c2fl, transform.position, 1.0f);
+					//} else if (x_of_t == 0) {	
+					//	Debug.Log ("T is not there on the screen");
+					//	AudioSource.PlayClipAtPoint (aud_c1fr, transform.position, 1.0f);
+				//	}
 				} else {
-					if (flip_f || flip_i || flip_t) {
+					if (flip_f) {
 						obj.SetActive (false);
 						if (flip_f == true) {
 							Debug.Log ("Try to flip F");
-							AudioSource.PlayClipAtPoint (aud_r1fl, transform.position, 1.0f);
-						} else if (flip_i == true) {
-							Debug.Log ("Try to flip I");
-							AudioSource.PlayClipAtPoint (aud_r2fl, transform.position, 1.0f);
-						} else if (flip_t == true) {
-							Debug.Log ("Try to flip T");
-							AudioSource.PlayClipAtPoint (aud_r1fr, transform.position, 1.0f);
+							AudioSource.PlayClipAtPoint (aud_r1fl, transform.position, 1.0f);//change this
 						}
-					} else if (x_of_t > x_of_i && x_of_i > x_of_f) {
+					// else if (flip_i == true) {
+					//		Debug.Log ("Try to flip I");
+					//		AudioSource.PlayClipAtPoint (aud_r2fl, transform.position, 1.0f);
+					//	} else if (flip_t == true) {
+					//		Debug.Log ("Try to flip T");
+					//		AudioSource.PlayClipAtPoint (aud_r1fr, transform.position, 1.0f);
+					//	}
+					}
+				else {
 						obj.SetActive (true);
 						Debug.Log ("Congratulations! It is the correct word!");
-						AudioSource.PlayClipAtPoint (congo, transform.position, 1.0f);
+						AudioSource.PlayClipAtPoint (congo, transform.position, 1.0f);//change this
 						t = 0;
-					} else {
-						obj.SetActive (false);
-						AudioSource.PlayClipAtPoint (reorder, transform.position, 1.0f);
-					}
+					} 
+				//else {
+				//		obj.SetActive (false);
+				//		AudioSource.PlayClipAtPoint (reorder, transform.position, 1.0f);
+				//	}
 				}
 			}
 		}
