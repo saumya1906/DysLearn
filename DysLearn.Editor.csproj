@@ -319,10 +319,6 @@
       <Project>{DA1EE5D5-D6E8-148B-2906-463737574251}</Project>
       <Name>DysLearn</Name>
     </ProjectReference>
-    <ProjectReference Include="DysLearn.Editor.Plugins.unityproj">
-      <Project>{58B66A68-21BC-D908-084B-4B283C676D43}</Project>
-      <Name>DysLearn.Editor.Plugins</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Vuforia\Editor\Scripts\OpenSourceInitializer.cs" />
@@ -334,7 +330,7 @@
     <None Include="Assets\Editor\Vuforia\TargetsetData\VuforiaMars_Object_info.xml" />
     <None Include="Assets\Editor\Vuforia\VuforiaMars_ModelTarget\authoringinfo.xml" />
     <None Include="Assets\Editor\Vuforia\VuforiaMars_VuMark\authoringinfo.xml" />
-    <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Materials\Plugins\Android\AndroidManifest.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\AllMyAlphabets.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
