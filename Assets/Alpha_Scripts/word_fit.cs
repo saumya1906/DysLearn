@@ -69,10 +69,10 @@ public class word_fit : MonoBehaviour
 				} else {
 					if (flip_f) {
 						obj.SetActive (false);
-						if (flip_f == true) {
+
 							Debug.Log ("Try to flip F");
 							AudioSource.PlayClipAtPoint (aud_r1fl, transform.position, 1.0f);//change this
-						}
+
 					// else if (flip_i == true) {
 					//		Debug.Log ("Try to flip I");
 					//		AudioSource.PlayClipAtPoint (aud_r2fl, transform.position, 1.0f);

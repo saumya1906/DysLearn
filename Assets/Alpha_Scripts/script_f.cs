@@ -62,7 +62,7 @@ public class script_f : MonoBehaviour
 
 			//               TRACKABLE NAME NEEDS TO BE CHANGED
 
-			if (tb.TrackableName == "f")
+			if (tb.TrackableName == "card4")
 				count = 1;
 		}
 		if (count == 1)
