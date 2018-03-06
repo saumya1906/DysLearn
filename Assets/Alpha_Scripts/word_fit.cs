@@ -51,17 +51,14 @@ public class word_fit : MonoBehaviour
 				//bool flip_i = script_i.flip;
 			//	bool flip_t = script_t.flip;
 
-				if (x_of_f == 0 ) {
-					obj.SetActive (false);
-					return;
-				}
+
 
 				if (x_of_f == 0) {
 					obj.SetActive (false);
-					if (x_of_f == 0) {	
+						
 						Debug.Log ("F is not there on the screen");
 						AudioSource.PlayClipAtPoint (aud_c1fl, transform.position, 1.0f);//change this
-					}
+
 					//else if (x_of_i == 0) {	
 					//	Debug.Log ("A is not there on the screen");
 					//	AudioSource.PlayClipAtPoint (aud_c2fl, transform.position, 1.0f);
