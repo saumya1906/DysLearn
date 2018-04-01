@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Vuforia;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(AudioSource))]
 public class word_fit : MonoBehaviour
@@ -17,20 +18,20 @@ public class word_fit : MonoBehaviour
 
 	//public AudioClip reorder;
 
-	public AudioClip congo;
+	//public AudioClip congo;
 
-	public GameObject obj;
+	//public GameObject obj;
 	int y, t;
 
 	void Start()
 	{
 		//		CHANGE WORD HERE
-		obj = GameObject.Find("fit");
-		if (obj != null)
-		{
-			Debug.Log("Object is not NULL, turning off visibility");
-			obj.SetActive(false);
-		}
+		//obj = GameObject.Find("fit");
+		//if (obj != null)
+		//{
+			//Debug.Log("Object is not NULL, turning off visibility");
+		//	obj.SetActive(false);
+	//	}
 		y = 1;
 		t = 1;
 	}
@@ -54,7 +55,7 @@ public class word_fit : MonoBehaviour
 
 
 				if (x_of_f == 0) {
-					obj.SetActive (false);
+					//obj.SetActive (false);
 						
 						Debug.Log ("F is not there on the screen");
 						AudioSource.PlayClipAtPoint (aud_c1fl, transform.position, 1.0f);//change this
@@ -68,7 +69,7 @@ public class word_fit : MonoBehaviour
 				//	}
 				} else {
 					if (flip_f) {
-						obj.SetActive (false);
+						//obj.SetActive (false);
 
 							Debug.Log ("Try to flip F");
 							AudioSource.PlayClipAtPoint (aud_r1fl, transform.position, 1.0f);//change this
@@ -82,9 +83,10 @@ public class word_fit : MonoBehaviour
 					//	}
 					}
 				else {
-						obj.SetActive (true);
-						Debug.Log ("Congratulations! It is the correct word!");
-						AudioSource.PlayClipAtPoint (congo, transform.position, 1.0f);//change this
+						//obj.SetActive (true);
+						SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
+						//AudioSource.PlayClipAtPoint (congo, transform.position, 1.0f);//change this
 						t = 0;
 					} 
 				//else {

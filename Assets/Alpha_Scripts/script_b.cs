@@ -62,7 +62,7 @@ public class script_b : MonoBehaviour
 
             //               TRACKABLE NAME NEEDS TO BE CHANGED
 
-            if (tb.TrackableName == "b")
+            if (tb.TrackableName == "b_playcard")
                 count = 1;
         }
         if (count == 1)
@@ -97,8 +97,8 @@ public class script_b : MonoBehaviour
         }
         else
             x = y = z = 0;
-        if(flip==true)
-        {
-        }
+       // if(flip==true)
+        //{
+        //}
     }
 }
